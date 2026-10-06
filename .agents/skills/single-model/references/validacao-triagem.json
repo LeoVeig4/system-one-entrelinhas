@@ -1,0 +1,36 @@
+{
+  "model": "nimble:9b-q4_K_M",
+  "answers": {
+    "department": {
+      "type": "choice",
+      "choice": "billing",
+      "probabilities": {
+        "billing": 0.8170046032390939,
+        "technical": 0.18181500241382076,
+        "sales": 0.0002278807132786642,
+        "other": 0.0009525136338066364
+      },
+      "confidence": 0.651145920232015
+    },
+    "refund_requested": {
+      "type": "noul",
+      "noul": 0.9908763611265735
+    },
+    "urgency": {
+      "type": "score",
+      "score": 0.199247730630916,
+      "legend": {
+        "0": "Rotina: serviço acessível e sem prazo crítico informado",
+        "1": "Prioridade: parte do serviço bloqueada ou prazo próximo explícito",
+        "2": "Crítico: serviço totalmente indisponível ou operação essencial paralisada"
+      },
+      "probabilities": {
+        "0": 0.8028454805715125,
+        "1": 0.19506130822605902,
+        "2": 0.002093211202428494
+      },
+      "confidence": 0.5375723806742738
+    }
+  },
+  "usage": {"input_tokens": 1184, "output_tokens": 4}
+}

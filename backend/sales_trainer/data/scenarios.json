@@ -1,0 +1,136 @@
+[
+  {
+    "id": "crm-planilha",
+    "version": "2",
+    "evaluation_schema_version": "2",
+    "title": "A planilha já resolve?",
+    "category": "Software",
+    "offer_summary": "CRM fictício para equipes pequenas, com lembretes de acompanhamento e importação de contatos por CSV.",
+    "offer_facts": [
+      "R$149 por mês.",
+      "Teste gratuito de 14 dias.",
+      "Lembretes de acompanhamento e importação de contatos por CSV.",
+      "Não há garantia de aumento de vendas nem integração com WhatsApp informada."
+    ],
+    "customer_context": "Marina trabalha com três vendedores que usam planilhas e às vezes esquecem de retomar contatos. Ela receia custo adicional e tempo para ensinar a equipe.",
+    "stage": "Objeção do cliente",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Oi! Vi o post de vocês sobre organizar o acompanhamento de clientes. Como funciona esse CRM?",
+        "time": "10:42"
+      },
+      {
+        "role": "seller",
+        "content": "Oi, Marina! Ele ajuda equipes pequenas a organizar os contatos e lembrar dos próximos acompanhamentos. Como vocês fazem isso hoje?",
+        "time": "10:43"
+      },
+      {
+        "role": "customer",
+        "content": "Somos três vendedores e cada um usa uma planilha. Às vezes esquecemos de retomar um contato. Qual é o valor? Dá para trazer os contatos que já temos?",
+        "time": "10:44"
+      },
+      {
+        "role": "seller",
+        "content": "O plano custa R$149 por mês. Você pode importar os contatos por CSV e usar os lembretes de acompanhamento. Também temos um teste gratuito de 14 dias.",
+        "time": "10:45"
+      },
+      {
+        "role": "customer",
+        "content": "Entendi. Mas a planilha já resolve boa parte e meu time vive correndo. Tenho receio de pagar mais uma ferramenta e gastar dias ensinando todo mundo.",
+        "time": "10:47"
+      }
+    ],
+    "customer_name": "Marina",
+    "customer_profile": "Gestora de uma equipe comercial"
+  },
+  {
+    "id": "fotografia-perfil",
+    "version": "2",
+    "evaluation_schema_version": "2",
+    "title": "É só uma foto de perfil?",
+    "category": "Serviço",
+    "offer_summary": "Pacote fictício de fotografias profissionais para atualizar o perfil.",
+    "offer_facts": [
+      "Preço total de R$600.",
+      "Uma hora de sessão e dez imagens editadas.",
+      "Não há desconto, parcelamento ou prazo de entrega informado."
+    ],
+    "customer_context": "Rafael quer atualizar uma foto antiga e informal enquanto procura novas oportunidades. Gostou das imagens, mas questiona o valor de um ensaio para seu perfil.",
+    "stage": "Objeção do cliente",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Olá! Achei seu perfil e gostei muito das fotos profissionais. Você faz ensaio para LinkedIn?",
+        "time": "14:10"
+      },
+      {
+        "role": "seller",
+        "content": "Oi, Rafael! Temos um pacote de fotos profissionais para atualizar seu perfil. O que você quer mudar na imagem que usa hoje?",
+        "time": "14:11"
+      },
+      {
+        "role": "customer",
+        "content": "Minha foto é antiga e bem informal. Comecei a procurar novas oportunidades. Quantas fotos vêm no pacote e quanto custa?",
+        "time": "14:12"
+      },
+      {
+        "role": "seller",
+        "content": "O pacote custa R$600 e inclui uma hora de sessão e dez imagens editadas. Assim você tem opções para escolher a foto que combina com seu perfil.",
+        "time": "14:13"
+      },
+      {
+        "role": "customer",
+        "content": "Gostei da ideia, mas R$600 me parece bastante para uma foto de perfil. Não sei se vale fazer um ensaio agora ou usar uma foto que um amigo pode tirar.",
+        "time": "14:15"
+      }
+    ],
+    "customer_name": "Rafael",
+    "customer_profile": "Profissional atualizando seu perfil"
+  },
+  {
+    "id": "idiomas-rotina",
+    "version": "2",
+    "evaluation_schema_version": "2",
+    "title": "Desta vez cabe na rotina?",
+    "category": "Educação",
+    "offer_summary": "Curso fictício online de idiomas, com duas aulas semanais e uma aula experimental.",
+    "offer_facts": [
+      "R$180 por mês.",
+      "Duas aulas semanais.",
+      "Uma aula experimental.",
+      "Não há flexibilidade, gravação de aulas ou reposição de faltas informada."
+    ],
+    "customer_context": "Camila quer aprender inglês para viajar com autonomia. Seu horário de trabalho muda e ela já abandonou outros cursos.",
+    "stage": "Objeção do cliente",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Oi! Vi o anúncio do curso online. Quero voltar a estudar inglês, mas queria entender melhor antes de me inscrever.",
+        "time": "18:20"
+      },
+      {
+        "role": "seller",
+        "content": "Oi, Camila! Claro. O que fez você querer retomar o inglês neste momento?",
+        "time": "18:21"
+      },
+      {
+        "role": "customer",
+        "content": "Tenho vontade de viajar sem depender dos outros. Como são as aulas e qual é a mensalidade? Posso conhecer uma aula primeiro?",
+        "time": "18:22"
+      },
+      {
+        "role": "seller",
+        "content": "O curso custa R$180 por mês e tem duas aulas online por semana. Há uma aula experimental para você conhecer a experiência antes de decidir.",
+        "time": "18:23"
+      },
+      {
+        "role": "customer",
+        "content": "Isso ajuda, mas meu horário de trabalho muda muito. Já comecei outros cursos e abandonei. Tenho medo de pagar e acabar não conseguindo acompanhar de novo.",
+        "time": "18:25"
+      }
+    ],
+    "customer_name": "Camila",
+    "customer_profile": "Interessada em retomar o inglês"
+  }
+]

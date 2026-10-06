@@ -1,0 +1,4 @@
+interface:
+  display_name: "Single Model — Nimble / System One"
+  short_description: "Use o Nimble local para decisões e classificação"
+  default_prompt: "Use $single-model para criar e testar uma classificação com o Nimble instalado no Ollama."

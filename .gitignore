@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+frontend/dist/
+artifacts/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Material de vídeo e credenciais locais
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.m4v
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.pypirc

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Entrelinhas · repositório"
+  short_description: "Rodar e entender o Entrelinhas com React e Nimble."
+  default_prompt: "Use $entrelinhas-repo para preparar, executar e explicar este repositório."

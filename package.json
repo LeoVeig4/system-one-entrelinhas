@@ -1,0 +1,26 @@
+{
+  "name": "entrelinhas",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Exemplo didático de decisões com System One, React e Python",
+  "workspaces": [
+    "frontend"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "preview": "npm run preview --workspace frontend",
+    "start": "node scripts/serve.mjs",
+    "backend": "node scripts/serve.mjs",
+    "test:api": "node scripts/python.mjs -m unittest discover -s backend/tests -v",
+    "test:ui": "playwright test",
+    "check:live": "node scripts/check_live.cjs",
+    "check:docs": "node scripts/python.mjs scripts/check_docs.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

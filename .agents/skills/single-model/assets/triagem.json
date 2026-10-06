@@ -1,0 +1,36 @@
+{
+  "model": "nimble:9b-q4_K_M",
+  "state": {
+    "solicitacao": "Fui cobrado duas vezes no meu cartão. Quero o estorno de uma cobrança. Consigo acessar o serviço normalmente."
+  },
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "Qual departamento deve atender esta solicitação?",
+      "criteria": {
+        "billing": "Cobrança, pagamento, fatura ou reembolso",
+        "technical": "Erros técnicos, bugs ou falhas de acesso",
+        "sales": "Compra, contratação ou consulta de preços",
+        "other": "Assunto diferente ou informação insuficiente"
+      }
+    },
+    "refund_requested": {
+      "type": "noul",
+      "instructions": "O cliente pede explicitamente estorno ou reembolso?",
+      "criteria": {
+        "true": "Há um pedido explícito de devolução de dinheiro",
+        "false": "Não há pedido explícito de devolução de dinheiro"
+      }
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "Avalie a urgência considerando somente o impacto relatado.",
+      "criteria": [
+        "Rotina: serviço acessível e sem prazo crítico informado",
+        "Prioridade: parte do serviço bloqueada ou prazo próximo explícito",
+        "Crítico: serviço totalmente indisponível ou operação essencial paralisada"
+      ]
+    }
+  },
+  "keep_alive": "5m"
+}
